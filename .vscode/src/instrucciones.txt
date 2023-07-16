@@ -1,0 +1,13 @@
+Para poder ejecutar el código correctamente, se necesita lo siguiente:
+
+Tener tres dispositivos con diferentes identificadores (pueden ser tres PCs o máquinas virtuales).
+En el cliente, cambiar la dirección IP predeterminada a la dirección IP en la que se va a colocar el servidor, la clase a cambiar es "EnviaTexto". 
+Exportar el cliente como archivo JAR y crear dos duplicados que se instalen en dispositivos diferentes al del servidor.
+Ejecutar primero el servidor y luego los clientes.
+Colocar la identificación del otro cliente de manera correcta para iniciar una conversación.
+
+Posibles errores a tener en cuenta:
+
+Puerto ocupado: Verificar que el puerto utilizado por el servidor esté disponible y no esté siendo utilizado por otra aplicación.
+Colocar incorrectamente la identificación: Asegurarse de ingresar la identificación correcta del cliente al iniciar la conversación.
+Recuerda seguir estos pasos y tener en cuenta los posibles errores para ejecutar el código de manera exitosa.
